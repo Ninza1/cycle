@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --black: #171618;
 }
 
 /* @theme inline {
@@ -19,4 +19,14 @@
   }
 } */
 
+body {
+  font-family: var(--font_inter);
+  color: var(--black);
+}
 
+h1 {
+  letter-spacing: -.025em;
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+  line-height: 1;
+}

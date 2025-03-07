@@ -1,0 +1,36 @@
+/* ----------------------------Hero Start --------------------------- */
+.hero {
+    background: url("https://cdn.prod.website-files.com/62b5b85dd560583e288cb389/65e0f5ebfe9934ae5bb359a0_bg.jpg");
+    background-size: cover;
+    position: 0 0;
+}
+
+.dropzon {
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -2.08%, rgba(255, 255, 255, 0.82) 20.73%, rgba(255, 255, 255, 0.65) 30.49%, rgba(255, 255, 255, 0.88) 40.76%, rgba(255, 255, 255, 0.00) 99.71%);
+    box-shadow: 0px 0px 16px 2px #FFF inset;
+    backdrop-filter: blur(2px);
+    border: 1px solid #0b08ad05;
+    border-radius: 16px;
+    padding: 1rem;
+}
+.dropzon .content{
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -11.58%, rgba(255, 255, 255, 0.82) 11%, rgba(255, 255, 255, 0.65) 27.05%, rgba(255, 255, 255, 0.88) 52.55%, rgba(255, 255, 255, 0.00) 99.71%)
+}
+
+.sphere {
+    background-image: url("https://cdn.prod.website-files.com/62b5b85dd560583e288cb389/65ee29f58df7cc2fd831b550_boucle-ai-test-min.png");
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transform: scale(.5);
+    animation: play-sphere 1s steps(60) infinite;
+}
+
+@keyframes play-sphere {
+    0%{
+        background-position:0px
+    }
+    100%{
+        background-position: -7200px
+    }
+}
